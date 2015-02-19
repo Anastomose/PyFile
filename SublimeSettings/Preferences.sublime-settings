@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/User/Solarized (Dark) (SL).tmTheme",
+	"font_face": "Inconsolata",
+	"font_size": 14,
+	"ignored_packages":
+	[
+	],
+	"rulers":
+	[
+		72,
+		79,
+		100
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+	"word_wrap": false,
+	"wrap_width": 79
+}
