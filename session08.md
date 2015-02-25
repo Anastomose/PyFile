@@ -11,5 +11,11 @@ Jobs man, want to do web development, know django.
 
 ERD -- entity relationship diagram for a database that shows the layout of all the objects to each other
 
+Recall the code that builds the pages we look at are called 'views'.
+
+A view can be defined as a callable that takes a request and returns a reponse. We will add a simple view as a function.
+
+_Goddammit this is going very fast, check py file comments_
+
 
 
