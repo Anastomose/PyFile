@@ -63,7 +63,7 @@ When working with dates on JSON just put them into strings then pass them into y
 REST -- Representational State Transfer
 * RESTful Web Services
 * Resource oriented architecture
-* 
+
 
 
 
