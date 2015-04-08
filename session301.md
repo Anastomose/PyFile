@@ -65,6 +65,8 @@ _Assert Methods_
 * assertRaises
 * assertAlmostEqual -- for testing floating point equivalency
 
+*Use Nose* handles running of tests, can be installed with pip, will find and run tests for you so that you can focus on writing them.
+
 *Using Fixtures*  
 Creating data for testing code that can be screwed up and replaced.
 * seUp / tearDown
@@ -72,7 +74,55 @@ Creating data for testing code that can be screwed up and replaced.
 * setUpModule / tearDownModule
 * addCleanup / doCleanups -- for cases where tests throw exceptions
 
+To run coverage on your test suite:  
+``` python
+coverage run some_program.py arg1 arg2
+```
 
+###Context Management
+-----
+
+``` python
+with open('file.txt', 'wb') as f:
+    f.write('foo')
+
+##Example
+import os, random, shutil, time
+
+class TemporaryDirectory(object):
+    """A context manager for creating a temporary directory which gets destroyed on context exit"""
+
+    def __init__(self,directory):
+        self.base_directory = directory
+
+    def __enter__(self):
+        # set things up
+        self.directory = os.path.join(self.base_directory, str(random.random()))
+        os.makedirs(self.directory)
+        return self.directory
+
+    def __exit__(self, type, value, traceback):
+        # tear it down
+        shutil.rmtree(self.directory)
+
+with TemporaryDirectory("/tmp/foo") as dir:
+    # write some temp data into dir
+    with open(os.path.join(dir, "foo.txt"), 'wb') as f:
+        f.write("foo")
+        time.sleep(5)
+```
+
+Context managers create a class with __enter__ and __exit__ methods that are defined to handle setting up and tearing down
+
+To create a context manager just create a class with the two methods above and define them so they set up the environment appropriately.
+
+*mock*  
+MagickMock something ...
+
+```python
+mock.patch  # takes some module and patch it with this thing
+
+```
 
 
 
