@@ -75,3 +75,33 @@ class MyChild(object)
 
 ```
 
+###PEP-8 Stuff
+------
+* Style guide for your code
+* Best to use the style guide in general, but sometimes deviation are necessary
+* Always use 4 spaces to indent at each level
+* run python 2 with -tt flag to identify instances when \t and \s are combined
+* official line length is 79, but it is accepted to go longer, 85, 100, as long as it is consistent
+* use ASCII if you can, use unicode if you must
+* Class names should use CamelCase
+* constants should be ALL CAPS
+* Always call 'self' --> self
+* Same goes for 'class' --> cls
+* Imports at top
+    + Standard library
+    + Related third party library
+    + Local application library
+* When in doubt make attributes public
+* Add public names in a module to __all__ = ['list of funcs and classes']
+* Use "x is None", "not x == None"
+
+Tools:
+-----
+* PyChecker
+* pyflakes
+* Pylint
+* pep8
+* flake8
+
+
+
