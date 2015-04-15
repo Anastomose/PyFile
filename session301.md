@@ -27,7 +27,7 @@ Follow basic package structure:
 * Changes.txt
 * License.txt
 * Manifest.in
-* Readme.txt (recommend write in restructured text()
+* Readme.txt (recommend write in restructured text)
 * setup.py
 * Scripts/
 * package_name/ (actual dir where code goes)
