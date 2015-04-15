@@ -103,5 +103,19 @@ Tools:
 * pep8
 * flake8
 
+Tools will work at the linux command line.
+
+```bash
+pip install pep8
+pip install --upgrade pep8
+
+pep8 <filename>
+flake8 <filename>
+
+pip install pylint
+pylint <filename>
+
+```
+
 
 
