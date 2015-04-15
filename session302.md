@@ -98,9 +98,9 @@ class MyChild(object)
 Tools:
 -----
 * PyChecker
-* pyflakes
-* Pylint
-* pep8
+* pyflakes -- more focused on functional stuff
+* Pylint -- a little more focused on styles
+* pep8 -- very comprehensive style checker
 * flake8
 
 Tools will work at the linux command line.
@@ -117,5 +117,4 @@ pylint <filename>
 
 ```
 
-
-
+In general it is preferable to use isinstance() rather than using type() when inspecting objects.
