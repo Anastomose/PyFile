@@ -14,6 +14,7 @@ The Call Stack
 + Stack space has limits!
 
 ::
+
     frame = sys.getframe(num)
 
 -----------
