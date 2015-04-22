@@ -34,7 +34,7 @@ Iterators and Generators
 ---------------------------------
 Crucial to the iterator is the __iter__ method which should be applied as follows:
 
-..code-block:: python
+.. code-block:: python
 
     def __iter__(self):
         return self
@@ -42,7 +42,8 @@ Crucial to the iterator is the __iter__ method which should be applied as follow
 * list comprehensions
 * generator expression! Same format as list comprehension but with parens rather than brackets
 
-..code-block:: python
+.. code-block:: python
+
         my_generator - (x for x in iterable)
 
 
@@ -62,7 +63,9 @@ Slightly Moar Elegant:
 * ipdb
 
 __logging__
-example::python
+example
+
+.. code-block:: python
 
     import logging
     import worker
