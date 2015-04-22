@@ -26,6 +26,7 @@ Exceptions
 + catch exception and raise a new one
 
 .. code-block:: python
+
     [name for name in dir(__builtin__) if "Error" in name]
 
 ---------------------------------
@@ -34,6 +35,7 @@ Iterators and Generators
 Crucial to the iterator is the __iter__ method which should be applied as follows:
 
 .. code-block:: python
+
     def __iter__(self):
         return self
 
