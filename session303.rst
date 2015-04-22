@@ -34,19 +34,56 @@ Iterators and Generators
 ---------------------------------
 Crucial to the iterator is the __iter__ method which should be applied as follows:
 
-.. code-block:: python
+..code-block:: python
 
     def __iter__(self):
         return self
 
-
 * list comprehensions
 * generator expression! Same format as list comprehension but with parens rather than brackets
-    ..code-block:: python
+
+..code-block:: python
         my_generator - (x for x in iterable)
 
-..
 
+-----------------
+Debugging
+-----------------
+
+Lowest Level:
+* print()
+* interpreter hints
+* import logging.debug
+* assert()
+* run script with -i flag to inspect environment
+
+Slightly Moar Elegant:
+* pdb
+* ipdb
+
+__logging__
+example::python
+
+    import logging
+    import worker
+
+    format='%(asctime)s %(message)s'
+
+    logging.basicConfig(filename='example.log', format=format, level=logging.DEBUG)
+
+
+    logging.debug("debug level message")
+    logging.warning("debug level message")
+
+    def worker():
+        logging.info("worker called")
+
+    worker()
+    logging.info("test complete")
+
+
+
+..
     some other shit that's not working right
     [core]
         editor = gvim
