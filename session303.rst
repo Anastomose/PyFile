@@ -13,7 +13,7 @@ The Call Stack
 + As fuctions finish running they are popped back off and the next fuction is brought back to the foreground
 + Stack space has limits!
 
-.. code-block:: python
+:: python
     frame = sys.getframe(num)
 
 -----------
