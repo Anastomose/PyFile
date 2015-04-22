@@ -22,7 +22,9 @@ class fibbo(object):
             return self.current
         else: raise StopIteration
 
+
 if __name__ == "__main__":
     temp = fibbo(20)
     for t in temp:
+        import pdb; pdb.set_trace()
         print t
