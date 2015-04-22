@@ -13,7 +13,7 @@ The Call Stack
 + As fuctions finish running they are popped back off and the next fuction is brought back to the foreground
 + Stack space has limits!
 
-::
+..code-block:: python
 
     frame = sys.getframe(num)
 
@@ -45,13 +45,14 @@ Crucial to the iterator is the __iter__ method which should be applied as follow
     ..code-block:: python
         my_generator - (x for x in iterable)
 
+..
 
-some other shit that's not working right
-[core]
-    editor = gvim
+    some other shit that's not working right
+    [core]
+        editor = gvim
 
-/share/vim/vim74/vim
-C:/Program\ Files\ \(x86\)/Git/share/vim/vim74/vim
-C:/Program\\ Files\\ \\(x86\\)/Git/share/vim/vim74/vim
-C:/Program\\ Files\\ \\(x86\\)/Vim/vim74/gvim
-C:/Program\\ Files\\ \\(x86\\)/Vim/vim74/gvim.exe
+    /share/vim/vim74/vim
+    C:/Program\ Files\ \(x86\)/Git/share/vim/vim74/vim
+    C:/Program\\ Files\\ \\(x86\\)/Git/share/vim/vim74/vim
+    C:/Program\\ Files\\ \\(x86\\)/Vim/vim74/gvim
+    C:/Program\\ Files\\ \\(x86\\)/Vim/vim74/gvim.exe
