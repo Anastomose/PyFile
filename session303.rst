@@ -52,6 +52,7 @@ Debugging
 -----------------
 
 Lowest Level:  
+
 * print()
 * interpreter hints
 * import logging.debug
@@ -59,6 +60,7 @@ Lowest Level:
 * run script with -i flag to inspect environment
 
 Slightly Moar Elegant:
+
 * pdb
 * ipdb
 
@@ -105,6 +107,7 @@ PDB Power
     %pdb
 
 __Commands__  
+
 + break (b) -- lists breakpoints
 + break filename.py:# -- sets breakpoint for filename.py at line #
 + clear (c) -- clear breakpoints
@@ -128,8 +131,10 @@ PDB>>>> condition breakpoint_id python expression
 Note you must use the assigned breakpoint number given by PDB
 
 **nose**  
-nosetests --pdb
-nosetests --pdb-failures
+
+.. code-block:: python
+    nosetests --pdb
+    nosetests --pdb-failures
 
 * eclipse
 * winpdb
