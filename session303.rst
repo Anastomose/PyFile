@@ -64,7 +64,7 @@ Slightly Moar Elegant:
 * pdb
 * ipdb
 
-*logging*  
+*Logging*  
 
 An example:
 
@@ -130,12 +130,14 @@ PDB Power
 **conditional breakpoints**  
 
 .. code-block:: python
+
     PDB>>>> condition breakpoint_id python expression
     # Note you must use the assigned breakpoint number given by PDB
 
 **nose**  
 
 .. code-block:: python
+
     nosetests --pdb
     nosetests --pdb-failures
 
