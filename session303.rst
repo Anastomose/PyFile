@@ -64,7 +64,7 @@ Slightly Moar Elegant:
 * pdb
 * ipdb
 
-__logging__  
+*logging*  
 
 An example:
 
@@ -107,7 +107,7 @@ PDB Power
     %debug
     %pdb
 
-__Commands__  
+**Commands**  
 
 + break (b) -- lists breakpoints
 + break filename.py:# -- sets breakpoint for filename.py at line #
@@ -128,8 +128,10 @@ __Commands__
     $ python -m script.py args
 
 **conditional breakpoints**  
-PDB>>>> condition breakpoint_id python expression
-Note you must use the assigned breakpoint number given by PDB
+
+.. code-block:: python
+    PDB>>>> condition breakpoint_id python expression
+    # Note you must use the assigned breakpoint number given by PDB
 
 **nose**  
 
