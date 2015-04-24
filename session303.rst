@@ -65,6 +65,7 @@ Slightly Moar Elegant:
 * ipdb
 
 __logging__  
+
 An example:
 
 .. code-block:: python
