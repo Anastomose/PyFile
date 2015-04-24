@@ -51,7 +51,7 @@ Crucial to the iterator is the __iter__ method which should be applied as follow
 Debugging
 -----------------
 
-Lowest Level:
+Lowest Level:  
 * print()
 * interpreter hints
 * import logging.debug
@@ -62,8 +62,8 @@ Slightly Moar Elegant:
 * pdb
 * ipdb
 
-__logging__
-example
+__logging__  
+An example:
 
 .. code-block:: python
 
@@ -104,7 +104,7 @@ PDB Power
     %debug
     %pdb
 
-__Commands__
+__Commands__  
 + break (b) -- lists breakpoints
 + break filename.py:# -- sets breakpoint for filename.py at line #
 + clear (c) -- clear breakpoints
@@ -119,12 +119,15 @@ __Commands__
 + enable id -- breakpoint enabled
 + disable id -- breakpoint disabled
 
+.. code-block:: bash
 
-**conditional breakpoints**
+    $ python -m script.py args
+
+**conditional breakpoints**  
 PDB>>>> condition breakpoint_id python expression
 Note you must use the assigned breakpoint number given by PDB
 
-**nose**
+**nose**  
 nosetests --pdb
 nosetests --pdb-failures
 
@@ -132,7 +135,9 @@ nosetests --pdb-failures
 * winpdb
 * ipdb
 
-pip install ipdb
+.. code-block:: bash
+    
+    pip install ipdb
 
 ..
     some other shit that's not working right
