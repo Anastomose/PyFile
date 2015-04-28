@@ -149,9 +149,3 @@ PDB Power
     
     pip install ipdb
 
-..
-    some other shit that's not working right
-    C:/Program\\ Files\\ \\(x86\\)/Vim/vim74/gvim.exe
-
-    works for global editor but fails to open commit log when passed arg:
-    C:/Program\\ Files\\ \\(x86\\)/Git/share/vim/vim74/vim.exe
