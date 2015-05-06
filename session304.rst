@@ -27,4 +27,13 @@ Modules of Interest
 + Flask
 + Pymongo
     * Note that Mongo DB is schemaless
-    * Create any DB, store anything as long as they have names 
+    * Create any DB, store anything as long as they have names
+
+**Module Inspection** 
+
+.. code-block: python
+
+    import __builtin__  # list of all built in f(x) and vars
+    dir(__module__)  # lists what functions the module defines
+
+
