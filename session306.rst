@@ -26,7 +26,7 @@ The diamond problem: calling the same method through multiple objects leading to
 
 Method resolution order -- corrects multiple calls problem using C3 algorithm or some other set of logic 
 
-:: python
+.. code-block: python
 
     object.__mro__
 
