@@ -10,7 +10,7 @@ session305
 
 **Firing Up ipython notebooks**
 
-.. code-block: bash
+.. code-block:: bash
 
     / in dir of interest
     >>ipython notebook
@@ -45,7 +45,7 @@ use .copy() method to create new arrays from existing arrays while leaving the o
 
 **Other Array Methods**
 
-.. code-block: python
+.. code-block:: python
 
     import numpy as np
     np.reshape(a, (x,y))
@@ -58,7 +58,7 @@ Numpy arrays are homogenous, every item is the same datatype
 
 **Masking**
 
-.. code-block: python
+.. code-block:: python
 
     a = [1,5,7,9]
     mask = a > 5

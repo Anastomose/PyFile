@@ -6,7 +6,7 @@ Session 306
 * datetime
 * multiple inheritance
 
-.. code-block: python
+.. code-block:: python
 
     class Animal(object):
         pass
@@ -26,7 +26,7 @@ The diamond problem: calling the same method through multiple objects leading to
 
 Method resolution order -- corrects multiple calls problem using C3 algorithm or some other set of logic 
 
-.. code-block: python
+.. code-block:: python
 
     object.__mro__
 
