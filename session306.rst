@@ -55,3 +55,16 @@ Recall that pickle is a way to serialize and store any python object in it's cur
 
 "__new__" is an object constructor where it is applied
 
+getattr(object, name [, default])
+
+metaclasses make other classes -- example: namedtuple in collections module, type('Name' (objects,), dict{include hard coded values, methods, other attributes})
+
+:collections module: namedtuple, OrderedDict, Counter, deque, defaultdict, Counter
+
+look at type() as a constructor, very powerful shortcut to creating new types similar to constructing new classes
+
+__metaclass__ attribute included in a class will do something (?) interesting to create new class
+
+* classess create instances
+* metaclassess create classes
+
