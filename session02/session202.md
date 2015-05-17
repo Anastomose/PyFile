@@ -6,7 +6,7 @@ class foo(object)
 
     @classmethod  # literally a class method that uses an instance of the class
     def fun(cls, *args):
-    """first argument that is received is the class object that then 
+    """first argument that is received is the class object that then
        gets bound to an object"""
         do some stuff here
 ```

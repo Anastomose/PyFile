@@ -70,7 +70,7 @@ Numpy arrays are homogenous, every item is the same datatype
 
 __Look more at fancy indexing that comes with numpy, very useful for subsettingdata from larger sets__
 
-.. code-block: python
+.. code-block":: python
 
     import numpy as np
     import sys
@@ -114,7 +114,7 @@ axis -- the actual lines along the edges of the plots
 
 Best to work with the object oriented API rather than making lots of calls to draw and select etc
 
-.. code-block: python
+.. code-block:: python
 
     %matplotlib inline  # for working in notebooks
     import matplotlib.pyplot as plt
