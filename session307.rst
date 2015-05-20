@@ -66,9 +66,15 @@ coroutines can be constructed using *yield* to create a generator that gives up 
 Distributed Programming
 ========================
 
+Pushing processes up to the network.
+
 * MPI
 * Pyro
 * Celery
+
+Celery can be installed with pip, but will require some sort of communication channel -- for example RabbitMQ 
+
+Celery can connect to RabbitMQ to set up processes that are waiting for input. Once this is running you can start shipping requests to Rabbit.
 
 
 
