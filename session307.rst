@@ -74,7 +74,11 @@ Pushing processes up to the network.
 
 Celery can be installed with pip, but will require some sort of communication channel -- for example RabbitMQ 
 
-Celery can connect to RabbitMQ to set up processes that are waiting for input. Once this is running you can start shipping requests to Rabbit.
+Celery can connect to RabbitMQ to set up processes (e.g. functions and arguments) that are waiting for input. 
+
+Once this is running you can start shipping requests to to your que which will then ship them to the waiting processes.
+
+*Note: Private methods are denoted by _method__*
 
 
 
