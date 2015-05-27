@@ -6,7 +6,9 @@ Session 308
 
 Passing data require parsing both on the way in and the way out. See PyArg_ParseTuple_
 
-.. _https://docs.python.org/2/c-api/arg.html
+.. _PyArg_ParseTuple: https://docs.python.org/2/c-api/arg.html
 
 On the way out we call *Py_BuildValue*
+
+Super complicated and very brittle. The brittlness is what makes it fast though.
 
