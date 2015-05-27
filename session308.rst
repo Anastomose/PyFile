@@ -43,6 +43,7 @@ Cython
 * http://www.cython.org
 
 .. code-block:: bash
+
     python setup.py build_ext --inplace
     cython cy_add1.pyx
     cython -a cy_add1.pyx # creates annotated version
@@ -50,12 +51,14 @@ Cython
 *Remember!*
 
 .. code-block:: python
+
     import fx
     dir(fx) # will show all members in fx
 
 To access the speed of cython you must define functions and variables using cdef, cpdef
 
 .. code-block:: python
+
     cdef double i = 0.0
     cdef double somefunc(double x)  # first double is return type, second is input type
 
