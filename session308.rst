@@ -77,3 +77,14 @@ Use SWIG or XDress for wrapping a big library
 
 Use cython for writing extensions from scratch
 
+.. code-block:: python
+
+        map(function call, value)  # screaming fast fx/data matching
+
+
+Moar Python Modules
+---------------------
+
+:cloudwatch: for evaluating cloud services
+:boto: managing cloud services or something
+
