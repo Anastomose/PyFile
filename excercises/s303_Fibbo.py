@@ -1,3 +1,7 @@
+
+def thing():
+    pass
+
 class fibbo(object):
     """creates iterator that computes fibbonocci series
     """
