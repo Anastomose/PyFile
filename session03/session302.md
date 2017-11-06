@@ -1,11 +1,13 @@
-###Session302.md  
-----
+Session302.md  
+------
 
 * Documentation
 * Memory Management
 * pep-8 stuff
 
-####Documentation  
+Documentation  
+------
+
 A really key part of development, people don't like to use code that isn't well documented.  
 * Readthedocs.org
 * Sphinx -- an extension architecture for adding special functionality
@@ -37,8 +39,9 @@ sphinx-apidoc -o test ../cdf_tools
 
 Check out the Sphinx themes to see other layouts and whatnot that can be applied to the generated documentation.
 
-###Memory Management
------
+Memory Management
+------
+
 Kind of a big deal, but has been largely overlooked as memory has become more and more available.
 
 Most scripting languages have some sort of built in memory management, aka garbage collection.
@@ -75,8 +78,9 @@ class MyChild(object)
 
 ```
 
-###PEP-8 Stuff
+PEP-8 Stuff
 ------
+
 * Style guide for your code
 * Best to use the style guide in general, but sometimes deviation are necessary
 * Always use 4 spaces to indent at each level
@@ -95,8 +99,9 @@ class MyChild(object)
 * Add public names in a module to __all__ = ['list of funcs and classes']
 * Use "x is None", "not x == None"
 
-Tools:
------
+Tools
+------
+
 * PyChecker
 * pyflakes -- more focused on functional stuff
 * Pylint -- a little more focused on styles

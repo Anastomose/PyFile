@@ -1,4 +1,4 @@
-###Session301 -- Introduction
+Session301 -- Introduction
 ------
 
 ```
@@ -11,8 +11,9 @@ Class Project
 * Version control
 * Some other requirement -- I think it has to be longer than just one file (??)
 
-####Building Your Own Package
------
+Building Your Own Package
+------
+
 Packages! You're already using them when you do pip install and that sort of thing. Bunch of nifty tools to help build, install, and distribute package.  
 
 * distutils
@@ -39,8 +40,8 @@ A package is literally a dir with a __inti__.py file in it followed by the modul
 
 setup.cgf
 
-####Unit Testing and Code Coverage
------
+Unit Testing and Code Coverage
+------
 
 ```python
 import unittest
@@ -79,8 +80,8 @@ To run coverage on your test suite:
 coverage run some_program.py arg1 arg2
 ```
 
-###Context Management
------
+Context Management
+------
 
 ``` python
 with open('file.txt', 'wb') as f:
