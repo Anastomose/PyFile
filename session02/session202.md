@@ -1,4 +1,4 @@
-###SESSION 2 -- INTERACTING WITH DATA
+### SESSION 2 -- INTERACTING WITH DATA
 Questions and answers from previous session
 
 ```python

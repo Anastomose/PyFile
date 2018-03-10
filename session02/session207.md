@@ -1,4 +1,4 @@
-###Session 07 -- Web Scraping, APIs, and Mashups
+### Session 07 -- Web Scraping, APIs, and Mashups
 
 _Mashups!_  
 Combining data from lots of sources to produce something useful and or cool.

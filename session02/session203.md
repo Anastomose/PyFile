@@ -1,4 +1,4 @@
-###Session 3  
+### Session 3  
 Pyramid web application transforms the actual HTTP request into a python object with multiple attributes that can be accessed through special methods.
 
 Recall model is part of sytem that is reaching out to the database to make transactions with the data.

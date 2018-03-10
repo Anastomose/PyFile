@@ -1,5 +1,5 @@
-###Session 4
-####Basics of Computer Networking  
+### Session 4
+#### Basics of Computer Networking  
 Processes can communicate both inside a single machine and between multiple machines.
 
 _TCP/IP -- transmission control protocol / internet protocol_  
@@ -34,7 +34,7 @@ Reads or writes data using a set of understood, well-defined protocols. This lay
 
 A socket represents the IP:Port combination. The socket creates a transceiver that can send and or receive bytes at a given address.
 
-####Python Sockets  
+#### Python Sockets  
 BSD sockets
 
 ```python
@@ -92,7 +92,7 @@ BSD sockets
     len(response)
 ```
 
-####Server Side Operations
+#### Server Side Operations
 Always remember: an address is a tuple of IP and port
 
 ```python

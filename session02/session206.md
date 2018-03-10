@@ -1,4 +1,4 @@
-####Session 06: CGI WSGI and Online Processes  
+#### Session 06: CGI WSGI and Online Processes  
     set VARIABLE = 'something'
     echo %VARIABLE%
 

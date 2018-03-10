@@ -1,7 +1,7 @@
-###Session 08  
+### Session 08  
 ---
 
-####Set Up Notes Pre-Class
+#### Set Up Notes Pre-Class
 ---
 * DJANGO_SETTINGS_MODULE is how the manage.py script is made aware of the project environment. Because of this it is critical the package _is not renamed._
 * settings.py is where apps for the project are identified and installed under INSTALLED_APPS
@@ -9,7 +9,7 @@
     * title__exact='The exact title'
     * text__contains='decoration'
 
-####Class Notes:
+#### Class Notes:
 ---
 Generator comprehensions! Use normal syntax for a list or dictionary comprehension without applying the outer brackets. The result will be a series of objects that are read through 1 x 1, handled, and then dumped from memory. Super useful!
 
